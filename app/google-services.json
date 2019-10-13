@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "635057640610",
+    "firebase_url": "https://usisahau-change.firebaseio.com",
+    "project_id": "usisahau-change",
+    "storage_bucket": "usisahau-change.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635057640610:android:21e4f197e5ac014636b3fb",
+        "android_client_info": {
+          "package_name": "com.glab.usisahauchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635057640610-u2pi7rkiacci41eof59qd5l94ftdbehj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOTAMst82Y0B1XJG9QOHyu8uu02AuAIQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635057640610-u2pi7rkiacci41eof59qd5l94ftdbehj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

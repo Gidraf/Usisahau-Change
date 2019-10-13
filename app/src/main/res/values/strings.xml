@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Usisahau Change</string>
+    <string name="good_news_ni_kwamba_kusahau_change_kwa_nganya_imekuwa_mambo_ya_tene">Good news ni kwamba kusahau change kwa nganya imekuwa mambo ya tene. 😜</string>
+    <string name="ukiwa_na_hii_app_utaweza_kuset_alarm">Ukiwa na hii app utaweza kuset alarm.</string>
+    <string name="alarm_yenyewe_ikiwa_ni_ya_madikika_unataka_ikushtue_ndio_uitishe_change_yako">Alarm yenyewe ikiwa ni ya madikika unataka ikushtue ndio uitishe change yako. 👊</string>
+    <string name="kutumia_hii_app_ni_simple_but_cool_click_done_then_ufuate_tutorial_guide_ya_kutumia_hii_app">Kutumia hii app ni simple tu sana🙂</string>
+    <string name="first_point"> ✔️ Click add button ndio uadd balance reminder.</string>
+    <string name="second_point">✔️ Swipe left or right kufuta hiyo reminder.</string>
+    <string name="third_point">✔️ Ukitaka kuedit reminder just tap on it.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="banner_ad_unit_id">ca-app-pub-6870725395952985/6172354041</string>
+    <string name="hakuna_kitu_huwa_inauma_kama_kusahau_hiyo_970_au_470_kwa_nganya_after_umelipa_fare_especially_ikiwa_ni_asubuhi_na_unaenda_job_hiyo_situation_inakuanga_tricky_na_inaeza_kuspoilia_siku_au_ilete_nuksi_zingine">Hakuna kitu huwa inauma kama kusahau hiyo 970 au 470 kwa nganya after umelipa fare, especially ikiwa ni asubuhi na unaenda job. Hiyo situation inakuanga tricky na inaeza kuspoilia siku au ilete nuksi zingine.</string>
+</resources>

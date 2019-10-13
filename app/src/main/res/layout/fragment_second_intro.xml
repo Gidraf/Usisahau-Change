@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/tools"
+    >
+
+    <data>
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/second_mat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_centerInParent="true"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:background="@color/colorAccentTranspalucent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hakuna_kitu_huwa_inauma_kama_kusahau_hiyo_970_au_470_kwa_nganya_after_umelipa_fare_especially_ikiwa_ni_asubuhi_na_unaenda_job_hiyo_situation_inakuanga_tricky_na_inaeza_kuspoilia_siku_au_ilete_nuksi_zingine"
+                android:id="@+id/slogan"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/opensanslight"
+                android:layout_centerInParent="true"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/white"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/slogan"
+                android:layout_marginTop="16dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/sad_face"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

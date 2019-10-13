@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/colorPrimaryDark"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AddBalance">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:title="Add change yako 😄"
+        android:id="@+id/add_title"
+        android:layout_alignParentTop="true"
+        app:titleTextColor="@color/text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_title"
+        android:id="@+id/balance_input"
+        android:background="@android:color/white"
+        android:padding="10dp"
+        android:fontFamily="@font/opensanslight"
+        android:focusable="true"
+        android:hint="Change yako ni how much? 💸"
+        android:textColorHint="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:inputType="numberDecimal|number"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/balance_input"
+        android:background="@android:color/white"
+        android:padding="10dp"
+        android:fontFamily="@font/opensanslight"
+        android:focusable="true"
+        android:hint="Nikushtue baada ya dakika? ⏰"
+        android:textColorHint="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/remind_time_input"
+        android:inputType="number|numberDecimal"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/remind_time_input">
+    <Button
+        android:layout_width="0dp"
+        android:text="Lengesha"
+        android:background="@color/colorRed"
+        android:layout_marginRight="5dp"
+        android:id="@+id/cancel_btn"
+        android:fontFamily="@font/opensansbold"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="0dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/save_button"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/opensansbold"
+        android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>
